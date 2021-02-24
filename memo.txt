@@ -1,0 +1,16 @@
+# Site
+https://github.com/theintern/intern-tutorial
+
+# Error
+詳細なログを見ても役に立たない。コンソールを参照すること
+例) system JSのエラー
+    "types": [
+      "intern",
+      "systemjs"
+    ]
+
+# Error: listen EACCES: permission denied 0.0.0.0:9001
+ServiceからIntel Graphics Command Centerを停止
+
+# テスト起動方法
+npm test
