@@ -13,9 +13,14 @@
     "noImplicitAny": true,
     "moduleResolution": "node",
     "outDir": "_dist",
-    "rootDir": "."
+    "rootDir": ".",
+    "types": [
+      "intern",
+      "systemjs"
+    ]
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "tests/**/*.ts"
   ]
 }

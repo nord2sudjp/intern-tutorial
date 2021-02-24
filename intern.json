@@ -1,0 +1,22 @@
+{
+    "suites": "_dist/tests/unit/hello.js",
+    "browser": {
+        "loader": {
+            "script": "systemjs"
+        },
+        "plugins": {
+            "script": "_dist/src/system.config.js",
+            "useLoader": true
+        }
+    },
+    "environments": [
+        "node",
+        {
+            "browserName": "chrome"
+        }
+    ],
+    "coverage": [
+        "_dist/src/**/*.js",
+        "!_dist/src/system.config.js"
+    ]
+}
